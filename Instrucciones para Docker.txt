@@ -1,0 +1,17 @@
+Instrucciones para Docker
+
+Dejo como prueba un aplicativo que realice para validación de conciliación de archivos, de modo ilustrativo lo que he desarrollado
+
+
+En terminal iniciar sesión con los siguiente comandos
+
+logout (quitar credenciales exitentes)
+login: 
+User name ziggyhan 
+password 123456789
+
+descargar y echar a correr imagen
+docker run -it ziggyhan/validador_msc:msc_validador python3 /ara/app.py
+
+copiar enlace y completar con:
+/validador
